@@ -1,0 +1,38 @@
+#textArea {
+    -fx-font-size: 12pt;
+    -fx-font-family: "Bookman Old Style";
+    -fx-text-fill: #333399;
+    -fx-padding: 1 1 1 1;
+    -fx-control-inner-background: thistle;
+    -fx-border-width: 3 3 0 3;
+     -fx-border-color: gray;
+    -fx-border-radius: 8px 8px 0 0;
+}
+
+#textField{
+    -fx-font-size: 10pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: #333399;
+    -fx-background-color: mistyrose;
+    -fx-border-width: 3 0 3 3;
+    -fx-border-color: darkgray;
+    -fx-border-radius: 0 0 0 5px;
+
+}
+
+#btn1 {
+      -fx-background-color: gray;
+       -fx-font-family: "Algerian";
+      -fx-text-fill: snow;
+      -fx-border-width: 3 3 3 3;
+      -fx-border-color: darkgray;
+      -fx-border-radius: 0 5px 5px 0;
+ }
+
+ #btn1:hover{
+     -fx-border-color: snow;
+ }
+
+ #btn1:focused{
+    -fx-border-color: aquamarine;
+ }
